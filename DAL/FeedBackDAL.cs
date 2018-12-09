@@ -1,15 +1,13 @@
 ﻿using AutoMapper;
+using DAL.Interfaces;
 using DTO;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TradeCompany.Database;
 
 namespace DAL
 {
-	public class FeedBackDAL : companyEntities
+	public class FeedBackDAL : companyEntities,IFeedBackDAL
 	{
 		IMapper _mapper;
 		public FeedBackDAL()
