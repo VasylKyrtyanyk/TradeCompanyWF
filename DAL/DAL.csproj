@@ -54,6 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GoodDAL.cs" />
     <Compile Include="Mapping configuration\CategoryProfile.cs" />
     <Compile Include="Mapping configuration\FeedBackProfile.cs" />
     <Compile Include="Mapping configuration\GoodProfile.cs" />
