@@ -54,6 +54,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mapping configuration\CategoryProfile.cs" />
+    <Compile Include="Mapping configuration\FeedBackProfile.cs" />
+    <Compile Include="Mapping configuration\GoodProfile.cs" />
+    <Compile Include="Mapping configuration\UserProfile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserDAL.cs" />
   </ItemGroup>
