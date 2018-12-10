@@ -16,5 +16,10 @@ namespace TradeCompanyWF
 		{
 			InitializeComponent();
 		}
+
+		private void LoginButton_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
