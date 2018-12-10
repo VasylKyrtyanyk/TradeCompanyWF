@@ -1,10 +1,11 @@
-﻿using DAL;
+﻿using BussniessLogic.Interfaces;
+using DAL;
 using DTO;
 using System.Collections.Generic;
 
 namespace BussniessLogic
 {
-	public class EntityBL
+	public class EntityBL:IEntityBL
 	{
 		private UserDAL _userDAL;
 		private GoodDAL _goodDAL;
