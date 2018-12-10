@@ -19,7 +19,7 @@ namespace BussniessLogic.Interfaces
 
 		List<GoodDTO> GetGoodByCategory(CategoryDTO categoryDTO);
 		GoodDTO GetGoodById(int id);
-	
+		List<FeedBackDTO> SearchFeedBackLogin(List<FeedBackDTO> feeds, string name);
 		List<FeedBackDTO> SortFeedBacks(List<FeedBackDTO> feed, int type);
 		List<UserDTO> GetUsers();
 		int AddUser(UserDTO user);
